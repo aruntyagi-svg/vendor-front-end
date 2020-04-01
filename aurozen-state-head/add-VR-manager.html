@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="header">
+        
+    <nav class="navbar navbar-expand-lg">
+      <a href="#" class="toggle-bar text-white"><i class="fa fa-bars " aria-hidden="true"></i></a> 
+      
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="./assets/img/logo.png"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown notifications">
+              <a class="nav-link dropdown-toggle mt-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-bell-o" aria-hidden="true"></i>
+                <span class="notifications-counting badge">6</span>
+              </a>
+              <div class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
+                <div class="menu-wrapper bg-white">
+                  <div class="notification-header p-3 text-white text-center">
+                    <h4 class="mb-0">6 New</h4>
+                    <span>App Notifications</span>
+                  </div> 
+                  <div class="notifications-list">
+                    <ul class="pl-0">
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-custom-primary" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-custom-primary mb-0">New Message</h4>
+                              <span class="text-dark-silver"><small>Are  You meeting today?</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>30 minute ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-danger" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-danger mb-0">Money Request</h4>
+                              <span class="text-dark-silver"><small><b>Jerry</b> is asking for money</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>1 hour ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-success" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-success mb-0">Money Received</h4>
+                              <span class="text-dark-silver"><small><b>Jerry</b> sent you money</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>1 hour ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-custom-primary" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-custom-primary mb-0">New Message</h4>
+                              <span class="text-dark-silver"><small>Are  You meeting today?</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>30 minute ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-danger" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-danger mb-0">Money Request</h4>
+                              <span class="text-dark-silver"><small><b>Jerry</b> is asking for money</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>1 hour ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-success" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-success mb-0">Money Received</h4>
+                              <span class="text-dark-silver"><small><b>Jerry</b> sent you money</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>1 hour ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+                <div class="arrow-up"></div>
+              </div>
+            </li>
+            <li class="nav-item dropdown profile">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="user-details-wrapper text-right d-inline-block mr-2"><p class="font-weight-bold mb-0">John Doe</p><small>Available</small></span>
+                <img src="./assets/img/avatar-icon.jpg" class="avatar-icon" alt="avatar-icon"/>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> admin@aurozen.com</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./view-profile.html"><i class="fa fa-user-o" aria-hidden="true"></i> Profile</a>
+                <a class="dropdown-item" href="#"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Wallet <span class="text-silver float-right">1200 Rs</span></a>
+                <a class="dropdown-item" href="./login.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>          
+</header>
+    <section class="dashboard-container section-shrink form-container">
+        <div class="container-fluid">
+          <h3 class="main-heading mt-4 text-uppercase">Add Vr manager</h3>
+            <div class="row justify-content-between mt-4">
+              <div class="col-12 w-100 mx-100 ">
+                <div class="shadow-boxes p-3">
+                  <form>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group">
+                          <img src="./assets/img/dummy-img.png" class="avatar-img mr-4"/>
+                          <label for="salesManagerAvatar" class="btn-custom custom-primary-button">
+                            Upload Avatar
+                          </label>
+                          <input id="salesManagerAvatar" class="avatar" type="file"/>
+                        </div>
+                      </div>
+                       
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="salesManagerName">Name</label>
+                          <input type="text" class="form-control" id="salesManagerName" placeholder="Enter Name">
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="salesManagerNumber">Phone</label>
+                          <input type="number" class="form-control" id="salesManagerNumber" placeholder="Enter Phone Number"> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="salesManagerEmail">Email</label>
+                          <input type="email" class="form-control" id="salesManagerEmail" placeholder="Enter Email"> 
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="salesManagerAddress">Address</label>
+                          <input type="text" class="form-control" id="salesManagerAddress" placeholder="Enter Address">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="salesManagerCity">City</label>
+                          <select class="form-control" id="salesManagerCity">
+                            <option>Gurgaon</option>
+                            <option>Noida</option>
+                            <option>Mumbai</option>
+                            <option>Delhi</option>
+                            <option>Lucknow</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="salesManagerState">State</label>
+                          <select class="form-control" id="salesManagerState">
+                            <option>Haryana</option>
+                            <option>U.P</option>
+                            <option>Mumbai</option>
+                            <option>Delhi</option>
+                            <option>U.P</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="salesManagerCountry">Country</label>
+                          <select class="form-control" id="salesManagerCountry">
+                            <option>India</option>
+                            <option>U.S</option>
+                            <option>U.K</option>
+                            <option>Australia</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="salesManagerAadhar">Aadhar</label>
+                          <input type="text" class="form-control" id="salesManagerAadhar" placeholder="Enter Aadhar">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="salesManagerPan">Pan</label>
+                          <input type="text" class="form-control" id="salesManagerPan" placeholder="Enter Pan">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 text-right">
+                        <button type="submit" class="btn-custom btn mr-2 custom-primary-button">Add Manager</button>
+                        <button type="reset" class="btn-custom btn custom-warning-button">Reset</button>
+                      </div>
+                    </div> 
+                    
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+             
+        </div>
+    </section>
+    <aside class="sidebar bg-white sidebar-open">
+      <div class="container-fluid">
+        <div class="row">
+          <ul class="mt-4 w-100">
+            <h4 class="heading-sidebar text-uppercase pl-4 mb-0 pb-2">Add</h4>
+            <li><a href="./add-VR-manager.html"><img src="./assets/icon/add-user-icon.svg" class="mb-1" style="width:25px"> VR Manager</a></li>
+            <h4 class="heading-sidebar text-uppercase pl-4 pt-3 mb-0 pb-2"> Show All</h4>
+            <li><a href="./list-view.html"><img src="./assets/icon/show-all.svg" class="mb-1" style="width:25px"> VR Manager</a></li>
+            <li><a href="./list-view.html"><img src="./assets/icon/show-all.svg" class="mb-1" style="width:25px"> VR Executive</a></li>
+            <li><a href="./list-view.html"><img src="./assets/icon/vendor-icon-1.svg" class="mb-1" style="width:25px"> Vendor</a></li>
+            <li><a href="./list-view.html"><img src="./assets/icon/gym-icon.svg" class="mb-1" style="width:25px"> Gyms</a></li>
+            <li><a href="./list-view.html"><img src="./assets/icon/transaction-icon.svg" class="mb-1" style="width:25px"> Transition</a></li>
+            <h4 class="heading-sidebar text-uppercase pl-4 pt-3 mb-0 pb-2">Target</h4>
+            <li><a href="./target-history.html"><img src="./assets/icon/history-icon.svg" class="mb-1" style="width:25px"> History</a></li>
+            <li><a href="./assign-target.html"><img src="./assets/icon/assign-icon.svg" class="mb-1" style="width:25px"> Assign</a></li>
+            <h4 class="heading-sidebar text-uppercase pl-4 pt-3 mb-0 pb-2">Transfer</h4>
+            <li><a href="./transfer-history.html"><img src="./assets/icon/history-icon.svg" class="mb-1" style="width:25px"> History</a></li>
+            <li><a href="./transfer.html"><img src="./assets/icon/transfer-icon.svg" class="mb-1" style="width:25px"> Transfer</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

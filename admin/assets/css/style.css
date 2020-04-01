@@ -1,0 +1,616 @@
+/*common css here */
+body {
+    background-color: #f8f8f8;
+    color: #0a0d20;
+    padding: 78px 0 50px 0;
+}
+.mx-100 {
+    max-width: 100%!important;
+}
+.mx-50 {
+    max-width: 50%!important;
+}
+.btn-custom {
+    padding: 9px 29px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    color: inherit;
+}
+.btn-custom:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.custom-primary-button,
+.bg-aurozen-primary {
+    background-color: #7cb908;
+    color: #fff;
+}
+.custom-danger-button {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+.custom-border-button {
+    border-color: #7cb908;
+    color: #7cb908;
+}
+.custom-warning-button {
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+.custom-shadowed-button {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.14)!important;
+    padding: 0.8rem!important;
+    background-color: #fff;
+    color: #7cb908;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.text-silver {
+    color: #ccc;
+}
+.text-custom-primary {
+    color: #7cb908;
+}
+.text-dark-silver {
+    color: #626262;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.table-search i {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+.table-search {
+    padding: 2px 10px 2px 26px;
+    border-radius: 50px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.height-auto {
+    height: auto!important;
+}
+.table-search input:hover,
+.table-search input:focus {
+    box-shadow: none;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.03);
+}
+.arrow-up {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: #fff;
+    -webkit-transform: rotate(45deg) translate(-7px);
+    transform: rotate(45deg) translate(-7px);
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-left: 1px solid rgba(0,0,0,.1);
+    z-index: 10;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 0;
+    right: 8px;
+}
+.table-align-middle tr td {
+    vertical-align: middle;
+}
+.m-auto {
+    height: auto!important;
+}
+/*common css ends here */
+
+
+/*header css here */
+.header {
+    background-color: #0a0d20;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.header .navbar-brand {
+    max-width: 172px;
+}
+.header ul li a {
+    color: #fff;
+}
+.header ul li .dropdown-menu a {
+    color:inherit;
+}
+.header ul li .dropdown-menu {
+    left: auto;
+    right: 0;
+    transform: translateY(20px);
+    top: calc(100% + 20px);
+}
+.header ul li .dropdown-menu.show {
+    top:100%;
+    transform: translateY(0px);
+}
+.header ul li .dropdown-menu::before {
+    content: ''; 
+}
+.header ul li.dropdown .dropdown-toggle::after {
+    display: none;
+}
+/*profile manu css */
+.header .profile .avatar-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.header .profile .user-details-wrapper {
+    line-height: 16px;
+    top: 8px;
+    position: relative;
+}
+/*notifications icon starts here */
+    .notifications .dropdown-toggle i  {
+        font-size: 20px;
+    }
+    .notifications .notifications-counting {
+        height: 18px;
+        width: 18px;
+        background-color: #7cb908;
+        border-radius: 50%;
+        position: absolute;
+        right: 2px;
+        top: 14px;
+        line-height: 11px;
+    }
+    .notification-header,
+    .notifications .dropdown-menu .arrow-up {
+        background-color: #7cb908;  
+    }
+    .notification-header h4 {
+        font-size: 19px;
+    }
+    .notifications .dropdown-menu {
+        border:none;
+        background-color: transparent;
+        min-width: 365px;
+    }
+    .notifications .dropdown-menu .menu-wrapper {
+        border-radius: .4rem;
+        box-shadow: 0 15px 30px 0 rgba(0,0,0,.11),0 5px 15px 0 rgba(0,0,0,.08)!important;
+         overflow: hidden;
+    }
+    .notification-row .notification-row-icon {
+        font-size: 22px;
+        position: absolute;
+        left: 10px;
+    }
+    .notification-row .notifications-text {
+        padding-left: 30px;
+    }
+    .notification-row .notifications-text h4 {
+        font-size: 18px;
+    }
+    .notifications-list ul li {
+        border-bottom: 1px solid #dae1e7;
+        cursor: pointer;
+    }
+    .notifications-list ul li:hover {
+        background-color: #f7f7f7;
+    }
+    .notifications-list {
+        max-height: 315px;
+        overflow: auto;
+    }
+/*notification icon css ends here */
+/*header css ends here */
+/*main dashboard section css here */
+.dashboard-container .shadow-boxes {
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+    height: 100%;
+}
+.shadow-boxes .head-button .btn {
+    font-size: 12px;
+    letter-spacing: 1px;
+    box-shadow: none;
+    background-color: transparent;
+}
+.icon-wrapper {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(124, 185, 8, 0.3);
+    color: #7cb908;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    font-size: 45px;
+    line-height: 57px;
+    position: relative;
+}
+.icon-wrapper svg {
+    fill: #7cb908;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/*main dashboard section css ends here */
+/*sidebar css here */
+    .sidebar {
+        max-width: 260px;
+        position: fixed;
+        top: 79px;
+        height: 100%;
+        box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+        transform: translateX(-260px);
+        transition: all .4s ease-in-out;
+        width: 260px;
+        overflow-x: auto;
+    }
+    .sidebar::-webkit-scrollbar, .user-data-profile-table::-webkit-scrollbar,
+    .notifications-list::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+    .sidebar::-webkit-scrollbar-thumb, .user-data-profile-table::-webkit-scrollbar-thumb,
+    .notifications-list::-webkit-scrollbar-thumb {
+        background-color: #0a0d20;
+        outline: 1px solid #0a0d20;
+      }
+    .sidebar.sidebar-open {
+        transform: translateX(-0px);
+    }
+    .dashboard-container.section-shrink {
+        padding-left: 265px!important;
+        transition-timing-function: ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    .sidebar ul {
+        padding-left: 0;
+        list-style: none;
+    }
+    .toggle-bar i {
+        font-size: 23px;
+        margin-top: 1px;
+        margin-right: 16px;
+    }
+    .sidebar ul li {
+        padding:0px 15px;
+    }
+    .sidebar ul li a {
+        color: inherit;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: inline-block;
+        font-size: 14px;
+        letter-spacing: 1px;
+        transition: transform .25s ease;
+        -webkit-transition: -webkit-transform .25s ease;
+    }
+    .sidebar ul li:hover a {
+        transform: translateX(5px);
+    }
+    .heading-sidebar {
+        color: #999;
+        font-size: 12px;
+        border-bottom: 1px solid #f7f0f0;
+    }
+    .sidebar ul li a i {
+        margin-right: 5px;
+    }
+    .sidebar ul {
+        padding-bottom: 90px;
+    }
+     
+/*sidebar css ends here */
+/*Add sales person */
+    .form-container .avatar {
+        display: none;
+    }
+    .form-container .avatar-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+    }
+/*add sales person ends here */
+/*view profile css here */
+    .view-user .avatar-img {
+        width: 112px;
+        height: 112px;
+        border-radius: 5px;
+        vertical-align: top;
+    }
+/*view profile css ends here */
+/*list view css here */
+.list-view .action-row button i {
+    font-size: 20px;
+}
+.list-view .table tbody tr td, .list-view .table tbody tr th {
+    padding: 1.3rem .75rem;
+    border-bottom: 1px solid transparent;
+    border-color: #fff;
+}
+.list-view .table tbody tr:hover td {
+    border-color: #e3e1f6;
+}
+.list-view .table-hover tbody tr {
+    -webkit-transition: all .2s;
+    transition:all .2s;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.05);
+    background-color: #fff;
+    position: relative;
+    border: 1px solid transparent;
+}
+.list-view .table-hover tbody tr:hover {
+    z-index: 200;
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    background-color: #f1f0f7;
+    border-color: #e3e1f6!important;
+    box-shadow: none;
+}
+.list-view .table {
+    border-collapse:separate; 
+    border-spacing: 0 15px; 
+}
+.list-view .table thead th {
+    border: none;
+}
+.list-view .table tbody td:first-child  {
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    border-left: 1px solid #fff;
+}
+.list-view .table tbody td:last-child {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem; 
+    border-right: 1px solid #fff;
+}
+.list-view .table tbody tr:hover td:first-child {
+    border-left-color: #e3e1f6;
+}
+.list-view .table tbody tr:hover td:last-child {
+    border-right-color: #e3e1f6;
+}
+/*list view css ends here */
+/*wallet design css here */
+.wallet-wrapper .wallet-heading {
+    height: 120px;
+}
+.wallet-wrapper .wallet-expences {
+    bottom: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.wallet-wrapper .table td, .wallet-wrapper .table th {
+    border-top:none;
+    border-bottom: 1px solid #f1f0f0;
+}
+.wallet-modal-table thead th {
+    border: none;
+}
+.wallet-modal-table tbody tr:not(.toggle-more-transition-data) {
+    border-top: 1px solid #dae1e7;
+    background-color: #f8f8f8;
+    transition: all 0.2s ease 0s;
+}
+.wallet-modal-table tbody tr:hover:not(.toggle-more-transition-data) {
+    transform: translateY(-4px);
+    box-shadow: rgb(204, 204, 204) 0px 3px 10px 0px;  
+}
+.user-data-profile-table {
+    max-height: 257px;
+}
+.toggle-more-transition-data {
+    display: none;
+}
+.toggle-more-transition-data.show-data {
+    display: table-row;
+}
+/*wallet design css ends here */
+/*gym css starts here */
+    .slider-profile .carousel-item img {
+        max-height: 350px;
+        object-fit: cover;
+        object-position: center;    
+    }
+    .slider-profile .carousel-control-prev,
+    .slider-profile .carousel-control-next {
+        font-size: 2.5rem;
+     }
+     .slider-profile .carousel-indicators {
+        cursor: pointer;
+     }
+     .profile-logo-wrapper {
+        width: 90px;
+        height: 90px;
+        border: 5px solid #fff;
+        box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        bottom: -36px;
+        left: 10%;
+     }
+     .profile-logo-wrapper img {
+         height: 90px;
+         width: 90px;
+         object-fit: cover;
+     }
+     .income {
+         background-color: #d5e8ff;
+     }
+     .expences {
+         background-color: #ffe7e7;
+     }
+     .wallet-info {
+        box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+        border-radius: 8px;
+        top: 30px;
+     }
+     .wrapping-pas i {
+        position: absolute;
+        right: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        padding: 10px;
+        background-color: #fff;
+    
+    }
+    .row-login {
+        min-height: calc(100vh - 120px);
+    }
+/*gym css ends here */
+/*radio button */
+/* The container */
+.radio-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 18px;
+    margin-right: 15px;
+  }
+  
+  /* Hide the browser's default radio button */
+  .radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .radio-container input:checked ~ .checkmark {
+    background-color: #7cb908;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .radio-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .radio-container .checkmark:after {
+    top: 6px;
+    left: 6px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+  .checkbox-container .checkmark {
+      border-radius: 0;
+      border: 1px solid #7cb908;
+  }
+  .radio-container .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 0;
+  }
+  /*radio button ends here */
+  .term-condition-box {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .term-condition-btn-wrapper {
+      bottom: 44px;
+      margin-left: -15px;
+      margin-right: -15px;
+  }
+  .term-condition-btn-wrapper .content-wrapper {
+    padding: 10px;
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+  }
+  .term-condition-box::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+    .term-condition-box::-webkit-scrollbar-thumb {
+        background-color: #0a0d20;
+        outline: 1px solid #0a0d20;
+    }
+    .cursor-pointer {
+        cursor: pointer;
+    }
+    .list-view .table-hover tbody tr .table-target-history {
+        border-spacing: 0 0;
+    }
+    .list-view .table-hover tbody tr .table-target-history tr   {
+        box-shadow: none;
+       
+    }
+    .list-view .table-hover tbody tr .table-target-history tr:hover {
+        transform: translateY(0);
+    }
+    .list-view .table-hover tbody tr .table-target-history tr td {
+        border-radius: 0;
+    }
+    .button-ind {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .wrapping-gyms-heading {
+        max-width: 80%;
+        margin: 0 auto;
+        z-index: 1;
+        position: relative;
+    }
+    .rupee-icon-table {
+        width: 15px;
+        position: relative;
+        bottom: 1px;
+        left: 2px;
+    }
+    .wallet-amount {
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 0px 25px 0 rgba(0,0,0,.1);
+        background-color: #fff;
+        border-radius: 5px;  
+        bottom: -24px;
+    }

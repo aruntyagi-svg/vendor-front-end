@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="header">
+        
+    <nav class="navbar navbar-expand-lg">
+      <a href="#" class="toggle-bar text-white"><i class="fa fa-bars " aria-hidden="true"></i></a> 
+      
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="./assets/img/logo.png"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown notifications">
+              <a class="nav-link dropdown-toggle mt-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-bell-o" aria-hidden="true"></i>
+                <span class="notifications-counting badge">6</span>
+              </a>
+              <div class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
+                <div class="menu-wrapper bg-white">
+                  <div class="notification-header p-3 text-white text-center">
+                    <h4 class="mb-0">6 New</h4>
+                    <span>App Notifications</span>
+                  </div> 
+                  <div class="notifications-list">
+                    <ul class="pl-0">
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-custom-primary" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-custom-primary mb-0">New Message</h4>
+                              <span class="text-dark-silver"><small>Are  You meeting today?</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>30 minute ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-danger" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-danger mb-0">Money Request</h4>
+                              <span class="text-dark-silver"><small><b>Jerry</b> is asking for money</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>1 hour ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-success" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-success mb-0">Money Received</h4>
+                              <span class="text-dark-silver"><small><b>Jerry</b> sent you money</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>1 hour ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-custom-primary" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-custom-primary mb-0">New Message</h4>
+                              <span class="text-dark-silver"><small>Are  You meeting today?</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>30 minute ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-danger" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-danger mb-0">Money Request</h4>
+                              <span class="text-dark-silver"><small><b>Jerry</b> is asking for money</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>1 hour ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="py-2">
+                        <div class="row notification-row mx-0">
+                          <div class="col-8">
+                            <i class="fa notification-row-icon fa-comments-o text-success" aria-hidden="true"></i>
+                            <div class="notifications-text">
+                              <h4 class="text-success mb-0">Money Received</h4>
+                              <span class="text-dark-silver"><small><b>Jerry</b> sent you money</small></span>
+                            </div>
+                          </div>
+                          <div class="col-4 text-dark-silver">
+                            <small><time>1 hour ago</time></small>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+                <div class="arrow-up"></div>
+              </div>
+            </li>
+            <li class="nav-item dropdown profile">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="user-details-wrapper text-right d-inline-block mr-2"><p class="font-weight-bold mb-0">John Doe</p><small>Available</small></span>
+                <img src="./assets/img/avatar-icon.jpg" class="avatar-icon" alt="avatar-icon"/>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> admin@aurozen.com</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./view-profile.html"><i class="fa fa-user-o" aria-hidden="true"></i> Profile</a>
+                <a class="dropdown-item" href="#"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Wallet <span class="text-silver float-right">1200 Rs</span></a>
+                <a class="dropdown-item" href="./update-password.html"><i class="fa fa-key" aria-hidden="true"></i> Update Password</a>
+                <a class="dropdown-item" href="./login.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>          
+</header>
+<section class="dashboard-container section-shrink list-view">
+  <div class="container-fluid">
+      <h3 class="main-heading mt-4 text-uppercase mb-0">Gym Request</h3>
+      <div class="row justify-content-between">
+        <div class="col-12 w-100 mx-100 py-3">
+          <table class="table table-hover table-align-middle">
+            <thead>
+              <tr>
+                <th class="font-weight-bold">S No</th>
+                <th class="font-weight-bold">Gym Name</th>
+                <th class="font-weight-bold">Contact</th>
+                <th class="font-weight-bold">Email</th>
+                <th class="font-weight-bold">Address</th>
+                <th class="font-weight-bold">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>123421221</td>
+                <td>Jimmey Fitness</td>
+                <td>123456</td>
+                <td>jimmeyfitness@gmail.com</td>
+                <td>133,aurozen street, Canada</td>
+                <td class="action-row">
+                  <a href="./gym-request-verify.html" class="btn-custom btn-primary btn custom-primary-button"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Verify</a>
+                </td>
+              </tr>
+              <tr>
+                <td>123421221</td>
+                <td>Jimmey Fitness</td>
+                <td>123456</td>
+                <td>jimmeyfitness@gmail.com</td>
+                <td>133,aurozen street, Canada</td>
+                <td class="action-row">
+                  <a href="./gym-request-verify.html" type="button" class="btn-custom btn-primary btn custom-primary-button"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Verify</a>
+                </td>
+              </tr>
+              <tr>
+                <td>123421221</td>
+                <td>Jimmey Fitness</td>
+                <td>123456</td>
+                <td>jimmeyfitness@gmail.com</td>
+                <td>133,aurozen street, Canada</td>
+                <td class="action-row">
+                  <a href="./gym-request-verify.html" type="button" class="btn-custom btn-primary btn custom-primary-button"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Verify</a>
+                </td>
+              </tr>
+              <tr>
+                <td>123421221</td>
+                <td>Jimmey Fitness</td>
+                <td>123456</td>
+                <td>jimmeyfitness@gmail.com</td>
+                <td>133,aurozen street, Canada</td>
+                <td class="action-row">
+                  <a href="./gym-request-verify.html" type="button" class="btn-custom btn-primary btn custom-primary-button"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Verify</a>
+                </td>
+              </tr>
+              <tr>
+                <td>123421221</td>
+                <td>Jimmey Fitness</td>
+                <td>123456</td>
+                <td>jimmeyfitness@gmail.com</td>
+                <td>133,aurozen street, Canada</td>
+                <td class="action-row">
+                  <a href="./gym-request-verify.html" type="button" class="btn-custom btn-primary btn custom-primary-button"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Verify</a>
+                </td>
+              </tr>
+            </tbody>
+            
+          </table>
+          
+        </div>
+      </div>
+  </div>
+</section>
+<aside class="sidebar bg-white sidebar-open">
+  <div class="container-fluid">
+    <div class="row">
+      <ul class="mt-4 w-100">
+        <h4 class="heading-sidebar text-uppercase pl-4 mb-0 pb-2">Add</h4>
+        <li><a href="./add-vendor.html"><img src="./assets/icon/vendor-icon.svg" class="mb-1" style="width:25px"> Vendor</a></li>
+        <h4 class="heading-sidebar text-uppercase pl-4 pt-3 mb-0 pb-2"> Show All</h4>
+        <li><a href="./vendor-list.html"><img src="./assets/icon/vendor-icon.svg" class="mb-1" style="width:25px"> Vendor</a></li>
+        <li><a href="./target.html"><img src="./assets/icon/gym-icon.svg" class="mb-1" style="width:25px"> Target</a></li>
+        <li><a href="./transitions-list.html"><img src="./assets/icon/transaction-icon.svg" class="mb-1" style="width:25px"> Transition</a></li>
+        <h4 class="heading-sidebar text-uppercase pl-4 pt-3 mb-0 pb-2">Other</h4>
+        <li><a href="./calculator.html"><img src="./assets/icon/calculator-icon.svg" class="mb-1" style="width:25px"> Calculator</a></li>
+        <li><a href="./gym-request.html"><img src="./assets/icon/gym.svg" class="mb-1 mr-1" style="width:25px">Gym-Request</a></li>
+      </ul>
+    </div>
+  </div>
+</aside>
+    <!-- Delete Modal -->
+    <div class="modal fade" id="deleteUser" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h6 class="modal-title text-danger" id="exampleModalLabel">Confirm Delete</h6>
+          </div>
+          <div class="modal-body">
+            You are about to delete <b>Jimmey</b>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-custom btn-danger bg-danger text-white">Delete</button>
+            <button type="button" class="btn btn-custom-primary btn-custom" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Delete Modal ends -->
+     
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
